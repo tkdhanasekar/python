@@ -1,6 +1,6 @@
 year = int(input("Enter the year: "))
 age = (2024 - year)
-if (age >= 80):
+if (age >= 80) and (age <= 149):
   print("You are a Super Senior")
 elif (age >= 60) and (age < 80):
   print("You are a Senior")
@@ -10,4 +10,7 @@ elif (age >= 11) and (age <= 19):
   print("You are a Teen")
 elif (age >= 0) and (age < 10):
   print("You are a Kid")
-
+elif (age >= 150):
+  print("Error! input valid age")
+elif (age < 0):
+  print("Error! input valid age")
