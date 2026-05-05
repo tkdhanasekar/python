@@ -1,2 +1,1 @@
-# python
-python learnings
+## python snippets
